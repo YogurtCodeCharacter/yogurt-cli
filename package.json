@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "https://github.com/YogurtCodeCharacter/yogurt-cli.git",
   "bin": {
     "yogurt": "./bin/yogurt.js"
   },
