@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "yogurt-cli": "./bin/yogurt.js"
+    "yogurt": "./bin/yogurt.js"
   },
   "dependencies": {
     "commander": "^2.20.0",
