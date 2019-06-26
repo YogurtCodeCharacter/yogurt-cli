@@ -7,8 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "https://github.com/YogurtCodeCharacter/yogurt-cli.git",
+  "author": "zongliming",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YogurtCodeCharacter/yogurt-cli.git"
+  },
   "bin": {
     "yogurt": "./bin/yogurt.js"
   },
