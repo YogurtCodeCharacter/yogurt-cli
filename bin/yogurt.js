@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 // 引入依赖
-var program = require('commander');
+const program = require('commander');
+const pkg = require('../package.json');
  
 // 定义版本和参数选项
 program
-  .version('0.1.0', '-v, --version')
+  .version(pkg.version, '-v, --version')
  
 program
   .command('init')
@@ -21,7 +22,7 @@ program
 
 program.on('--help', function(){
   console.log('');
-  console.log('    我爱喝酸奶！');
+  console.log('    酸奶码字员');
   console.log('');
 });
  
