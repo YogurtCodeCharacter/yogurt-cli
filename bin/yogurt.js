@@ -12,6 +12,13 @@ program
   .action((cmd) => {
     require('../lib/init')(cmd);
   })
+  program
+  .command('list')
+  .description('查看模板列表')
+  .action((cmd) => {
+    require('../lib/templateList')(cmd);
+  })
+
 program.on('--help', function(){
   console.log('');
   console.log('    我爱喝酸奶！');
