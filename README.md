@@ -8,11 +8,11 @@
 
 <code>yogurt init</code>
 
-<code>cd yogurt</code>
+<code>cd templateOne</code>
 
 <code>npm install</code>
 
 <code>npm run dev</code>
 ## 配置
 <code>yogurt init</code>默认配置的技术栈为react+antd+redux+saga+webpack，集成了mock服务，打包等。
-运行<code>yogurt -l</code>可以查看当前可配置的模板选项。
+运行<code>yogurt list</code>可以查看当前可配置的模板选项。
